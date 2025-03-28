@@ -269,7 +269,57 @@ As we titrate more and more we make recordings of the pH after each NaOH additio
 &lt;td&gt;12.24&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
-[[Now it is time to graph!]]</tw-passagedata><tw-passagedata pid="16" name="Now it is time to graph!" tags="" position="475,775" size="100,100">Click and drag the pieces of the titration curve to the correct spot on the graph.
+[[Now it is time to graph!]]</tw-passagedata><tw-passagedata pid="16" name="Now it is time to graph!" tags="" position="150,875" size="100,100">&lt;table class=&quot;table&quot;&gt;
+&lt;tr&gt;
+&lt;th&gt;Total NaOH Volume (mL) &lt;/th&gt;
+&lt;th&gt;pH&lt;/th&gt;
+&lt;th&gt;Total NaOH Volume (mL) &lt;/th&gt;
+&lt;th&gt;pH&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0.00&lt;/td&gt;
+&lt;td&gt;2.91&lt;/td&gt;
+&lt;td&gt;27.67&lt;/td&gt;
+&lt;td&gt;5.98&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4.32&lt;/td&gt;
+&lt;td&gt;3.99&lt;/td&gt;
+&lt;td&gt;28.25&lt;/td&gt;
+&lt;td&gt;6.17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8.15&lt;/td&gt;
+&lt;td&gt;4.34&lt;/td&gt;
+&lt;td&gt;29.32&lt;/td&gt;
+&lt;td&gt;8.68&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14.58&lt;/td&gt;
+&lt;td&gt;4.75&lt;/td&gt;
+&lt;td&gt;30.81&lt;/td&gt;
+&lt;td&gt;11.30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22.71&lt;/td&gt;
+&lt;td&gt;5.29&lt;/td&gt;
+&lt;td&gt;32.12&lt;/td&gt;
+&lt;td&gt;11.56&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25.00&lt;/td&gt;
+&lt;td&gt;5.52&lt;/td&gt;
+&lt;td&gt;34.56&lt;/td&gt;
+&lt;td&gt;11.82&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;45.78&lt;/td&gt;
+&lt;td&gt;12.24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+Click and drag the pieces of the titration curve to the correct spot on the graph.
 
 &lt;img src=&quot;titration-empty-graph-2.jpg&quot; id=&quot;graph&quot; class=&quot;droppable&quot; alt=&quot;empty titration graph with volume of NaOH on the x-axis and pH on the y-axis&quot; width=&quot;500px&quot;&gt;
 &lt;img src=&quot;acetic-acid-1-piece.png&quot; id=&quot;piece1&quot; alt=&quot;Longest line with the dip on the left&quot; width=&quot;233px&quot; height=&quot;101px&quot;&gt;
@@ -277,7 +327,7 @@ As we titrate more and more we make recordings of the pH after each NaOH additio
 &lt;img src=&quot;acetic-acid-2-piece.png&quot; id=&quot;piece2&quot; alt=&quot;Mostly vertical line&quot; height=&quot;145px&quot;&gt;
 &lt;input type=&quot;button&quot; class=&quot;button&quot; id=&quot;check&quot; value=&quot;Check Curve&quot; onclick=&quot;myFunction()&quot;&gt;
 &lt;p id=&quot;output&quot;&gt;&lt;/p&gt;
-&lt;p id=&quot;labelLink&quot; style=&quot;color: #d9d9d9;&quot; onclick=&quot;window.location.reload()&quot;&gt;[[Determine Unknown]]&lt;/p&gt; 
+&lt;p id=&quot;labelLink&quot; style=&quot;color: #d9d9d9;&quot; onclick=&quot;window.location.reload()&quot;&gt;[[Determine Unknown Part 1]]&lt;/p&gt; 
 
 &lt;script&gt;
   let currentDroppable = null;
@@ -465,11 +515,13 @@ piece3.ondragstart = function() {
 return false;
 };
 
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="17" name="Determine Unknown" tags="" position="625,775" size="100,100">Great work in creating your titration curve!
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="17" name="Determine Unknown" tags="" position="775,800" size="100,100">Great work in creating your titration curve!
 &lt;img src=&quot;titration-graph-2.jpg&quot; id=&quot;curve&quot; class=&quot;droppable&quot; alt=&quot;titration curve of acetic acid&quot; width=&quot;500px&quot;&gt;
 
 Now we can find the concentration of the unknown amount of acetic acid in a vinegar sample.
 As a reminder, we have 0.075 M NaOH and 25.00 mL of our unknown. The table of values collected during the titration are at the bottom of the page.
+
+We calculated the moles of NaOH to be 0.00220 mol.
 
 What is the unknown concentration?
 [[0.085 M acetic acid]]
@@ -478,86 +530,67 @@ What is the unknown concentration?
 [[0.075 M acetic acid]]
 [[0.090 M acetic acid]]
 [[0.0042 M acetic acid]]
-
-
-&lt;table class=&quot;table&quot;&gt;
-&lt;tr&gt;
-&lt;th&gt;Total NaOH Volume (mL) &lt;/th&gt;
-&lt;th&gt;pH&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;0.00&lt;/td&gt;
-&lt;td&gt;2.91&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4.32&lt;/td&gt;
-&lt;td&gt;3.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;8.15&lt;/td&gt;
-&lt;td&gt;4.34&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;14.58&lt;/td&gt;
-&lt;td&gt;4.75&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;22.71&lt;/td&gt;
-&lt;td&gt;5.29&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;25.00&lt;/td&gt;
-&lt;td&gt;5.52&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;27.67&lt;/td&gt;
-&lt;td&gt;5.98&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;28.25&lt;/td&gt;
-&lt;td&gt;6.17&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;29.32&lt;/td&gt;
-&lt;td&gt;8.68&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;30.81&lt;/td&gt;
-&lt;td&gt;11.30&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;32.12&lt;/td&gt;
-&lt;td&gt;11.56&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;34.56&lt;/td&gt;
-&lt;td&gt;11.82&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;45.78&lt;/td&gt;
-&lt;td&gt;12.24&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;</tw-passagedata><tw-passagedata pid="18" name="0.085 M acetic acid" tags="" position="550,925" size="100,100">You chose 0.085 M acetic acid.
+[[0.0405 M acetic acid]]
+</tw-passagedata><tw-passagedata pid="18" name="0.085 M acetic acid" tags="" position="775,1175" size="100,100">You chose 0.085 M acetic acid.
 Not quite. This was the concentration of the //known// acetic acid sample.
 Recall the relationship between the moles of NaOH added and the moles of acetic acid.
 
-[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="19" name="0.0021 M acetic acid" tags="" position="700,925" size="100,100">You chose 0.0021 M acetic acid.
+[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="19" name="0.0021 M acetic acid" tags="" position="1150,1050" size="100,100">You chose 0.0021 M acetic acid.
 Not quite.
 Recall the relationship between the moles of NaOH added and the moles of acetic acid.
 
-[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="20" name="0.088 M acetic acid" tags="" position="875,750" size="100,100">You chose 0.088 M acetic acid.
+[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="20" name="0.088 M acetic acid" tags="" position="950,625" size="100,100">You chose 0.088 M acetic acid.
 That is correct!
-That must have been quite a dilute sample of acetic acid. Most vinegars are much higher of a concentration. </tw-passagedata><tw-passagedata pid="21" name="0.075 M acetic acid" tags="" position="625,1050" size="100,100">You chose 0.075 M acetic acid.
+That must have been quite a dilute sample of acetic acid. Most vinegars are much higher of a concentration. </tw-passagedata><tw-passagedata pid="21" name="0.075 M acetic acid" tags="" position="950,1100" size="100,100">You chose 0.075 M acetic acid.
 Not quite. This was the molarity of NaOH used and the volumes were not the same.
 Recall the relationship between the moles of NaOH added and the moles of acetic acid.
 
-[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="22" name="0.090 M acetic acid" tags="" position="825,1025" size="100,100">You chose 0.090 M acetic acid.
+[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="22" name="0.090 M acetic acid" tags="" position="1250,925" size="100,100">You chose 0.090 M acetic acid.
 Almost.
 Use the values in the table rather than estimating the volume.
 
-[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="23" name="0.0042 M acetic acid" tags="" position="450,1000" size="100,100">You chose 0.0042 M acetic acid.
+[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="23" name="0.0042 M acetic acid" tags="" position="650,1075" size="100,100">You chose 0.0042 M acetic acid.
 Not quite.
 Recall the relationship between the moles of NaOH added and the moles of acetic acid.
+
+[[Try Again-&gt;Determine Unknown]] </tw-passagedata><tw-passagedata pid="24" name="Determine Unknown Part 1" tags="" position="425,900" size="100,100">Great work in creating your titration curve!
+&lt;img src=&quot;titration-graph-2.jpg&quot; id=&quot;curve&quot; class=&quot;droppable&quot; alt=&quot;titration curve of acetic acid&quot; width=&quot;500px&quot;&gt;
+
+Now we can find the concentration of the unknown amount of acetic acid in a vinegar sample.
+As a reminder, we have 0.075 M NaOH and 25.00 mL of our unknown. The table of values collected during the titration are at the bottom of the page.
+
+Firstly, what is the moles of NaOH at the equivalence point?
+
+[[0.00208 mol NaOH]]
+[[0.00259 mol NaOH]]
+[[0.00231 mol NaOH]]
+[[0.00220 mol NaOH]]
+[[0.000109 mol NaOH]]</tw-passagedata><tw-passagedata pid="25" name="0.00259 mol NaOH" tags="" position="125,1075" size="100,100">You chose 0.00259 mol NaOH
+Not quite.
+Recall that the equivalence point is near the middle of the vertical jump. You need to find a different volume.
+
+[[Try Again-&gt;Determine Unknown Part 1]] </tw-passagedata><tw-passagedata pid="26" name="0.00208 mol NaOH" tags="" position="350,1075" size="100,100">You chose 0.00208 mol NaOH
+Not quite.
+Recall that the equivalence point is near the middle of the vertical jump. You need to find a different volume.
+
+[[Try Again-&gt;Determine Unknown Part 1]] </tw-passagedata><tw-passagedata pid="27" name="0.00231 mol NaOH" tags="" position="450,1175" size="100,100">You chose 0.00231 mol NaOH
+Not quite.
+Recall that the equivalence point is near the middle of the vertical jump. You need to find a different volume.
+
+[[Try Again-&gt;Determine Unknown Part 1]] </tw-passagedata><tw-passagedata pid="28" name="0.00220 mol NaOH" tags="" position="575,800" size="100,100">You chose 0.00220 mol NaOH
+That is correct!
+
+Now we can use the moles of NaOH to determine the moles of acetic acid and then the molarity.
+
+[[Determine Unknown]] 
+
+</tw-passagedata><tw-passagedata pid="29" name="0.000109 mol NaOH" tags="" position="175,1175" size="100,100">You chose 0.000109 mol NaOH
+Not quite.
+Recall that the equivalence point is near the middle of the vertical jump. You need to find a different volume.
+
+[[Try Again-&gt;Determine Unknown Part 1]] </tw-passagedata><tw-passagedata pid="30" name="0.0405 M acetic acid" tags="" position="1100,725" size="100,100">You chose 0.0405 M acetic acid.
+Almost.
+This is the concentration of the acetic acid in the Erlenmeyer Flask (i.e. the diluted concentration). You need to do a back dilution to get the concentration of the original acid sample.
 
 [[Try Again-&gt;Determine Unknown]] </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
